@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+	<head>
+		<title>App Title</title>
+	</head>
+
+	<body ng-controller="myAppController">
+
+		<div ng-repeat="person in people">
+			{{person.name}} {{person.surname}} {{person.age}}
+        </div>
+
+	</body>
+
+	<script src="js/lib.angular.js"></script>
+	<script src="js/app.controller.js"></script>
+
+</html>
+
